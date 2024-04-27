@@ -1,0 +1,24 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "github-action code test to build a simple node.js with typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emacslisp/github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emacslisp/github-action/issues"
+  },
+  "homepage": "https://github.com/emacslisp/github-action#readme",
+  "dependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
